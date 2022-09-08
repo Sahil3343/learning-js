@@ -248,9 +248,35 @@ const selectRandom = () => {
     console.log(fruits[RandomSelection])
 }
 
-selectRandom()
+//selectRandom()
 
 
+// creating a rock paper scissors game
+
+// const compOptions = ['rock', 'paper', 'scissors']
+// const userChoice = 'rock'
+
+// let compResult = (compOptions) => compOptions[Math.floor(Math.random() * compOptions.length)]
+// const compChoice = compResult(compOptions)
+
+// console.log(`User Choice: ${userChoice}`)
+// console.log(`Computer choice: ${compChoice}`)
+
+// let winner = ''
+
+// if (userChoice == 'rock' && compChoice == 'paper') {
+//     winner = 'Computer!'   
+// } else if (userChoice == 'paper' && compChoice == 'scissors') {
+//     winner = 'Computer!'
+// } else if (userChoice == 'scissors' && compChoice == 'rock') {
+//     winner = 'Computer!'
+// } else if (userChoice == compChoice) {
+//     winner = 'No one! It is a tie!'
+// } else {
+//     winner = 'User!'
+// }
+
+// console.log(`Winner is ${winner}`)
 
 
 
